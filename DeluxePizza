@@ -1,0 +1,49 @@
+public class DeluxePizza extends Pizza{
+
+
+
+    public DeluxePizza(boolean normal) {
+        super(normal);
+        if(normal) {
+            super.addExtraCheese();
+            super.addExtraToppings();
+            super.addExtraOnion();
+        }
+        else{
+            super.addExtraSpice();
+            super.addExtraChicken();
+            super.addExtraOnion();
+        }
+    }
+
+
+
+
+
+    @Override
+    public void addExtraCheese() {
+
+    }
+
+    @Override
+    public void addExtraToppings() {
+
+    }
+
+    @Override
+    public void addExtraOnion() {
+
+    }
+
+    @Override
+    public void addExtraSpice() {
+
+    }
+
+    @Override
+    public void addExtraChicken() {
+
+    }
+
+
+}
